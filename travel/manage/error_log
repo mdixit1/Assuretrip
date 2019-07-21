@@ -1,0 +1,47 @@
+[07-May-2019 12:34:52 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/topheader.php:1) in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/leads.php on line 57
+[09-May-2019 16:51:31 Asia/Kolkata] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/pdf/fpdf.php on line 10
+[09-May-2019 16:51:31 Asia/Kolkata] PHP Notice:  Undefined variable: adult in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/download_pdf.php on line 67
+[11-May-2019 12:20:59 Asia/Kolkata] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/pdf/fpdf.php on line 10
+[11-May-2019 12:20:59 Asia/Kolkata] PHP Notice:  Undefined variable: adult in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/download_pdf.php on line 67
+[12-May-2019 21:45:37 Asia/Kolkata] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/pdf/fpdf.php on line 10
+[12-May-2019 21:45:37 Asia/Kolkata] PHP Notice:  Undefined variable: adult in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/download_pdf.php on line 67
+[18-May-2019 16:07:35 Asia/Kolkata] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/pdf/fpdf.php on line 10
+[18-May-2019 16:07:35 Asia/Kolkata] PHP Notice:  Undefined variable: adult in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/download_pdf.php on line 67
+[22-May-2019 17:50:21 Asia/Kolkata] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/pdf/fpdf.php on line 10
+[22-May-2019 17:50:21 Asia/Kolkata] PHP Notice:  Undefined variable: adult in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/download_pdf.php on line 67
+[22-May-2019 18:50:41 Asia/Kolkata] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/pdf/fpdf.php on line 10
+[22-May-2019 18:50:41 Asia/Kolkata] PHP Notice:  Undefined variable: adult in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/download_pdf.php on line 67
+[25-May-2019 11:37:38 Asia/Kolkata] PHP Notice:  Undefined variable: recname in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/topheader.php on line 26
+[25-May-2019 11:37:59 Asia/Kolkata] PHP Notice:  Undefined variable: recname in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/topheader.php on line 26
+[25-May-2019 11:37:59 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'travelsrtech.manage' doesn't exist in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php:72
+Stack trace:
+#0 /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php(72): PDO->query('SELECT manage_p...')
+#1 {main}
+  thrown in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php on line 72
+[25-May-2019 11:38:15 Asia/Kolkata] PHP Notice:  Undefined variable: recname in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/topheader.php on line 26
+[25-May-2019 11:38:32 Asia/Kolkata] PHP Notice:  Undefined variable: recname in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/topheader.php on line 26
+[25-May-2019 11:38:32 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'travelsrtech.manage' doesn't exist in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php:72
+Stack trace:
+#0 /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php(72): PDO->query('SELECT manage_p...')
+#1 {main}
+  thrown in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php on line 72
+[25-May-2019 11:39:32 Asia/Kolkata] PHP Notice:  Undefined variable: recname in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/topheader.php on line 26
+[25-May-2019 11:39:32 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'travelsrtech.manage' doesn't exist in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php:72
+Stack trace:
+#0 /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php(72): PDO->query('SELECT manage_p...')
+#1 {main}
+  thrown in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php on line 72
+[25-May-2019 11:46:14 Asia/Kolkata] PHP Notice:  Undefined variable: recname in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/topheader.php on line 26
+[25-May-2019 11:46:15 Asia/Kolkata] PHP Notice:  Undefined variable: recname in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/topheader.php on line 26
+[25-May-2019 11:46:30 Asia/Kolkata] PHP Notice:  Undefined variable: recname in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/topheader.php on line 26
+[25-May-2019 11:46:30 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'travelsrtech.manage' doesn't exist in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php:72
+Stack trace:
+#0 /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php(72): PDO->query('SELECT manage_p...')
+#1 {main}
+  thrown in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php on line 72
+[25-May-2019 11:46:31 Asia/Kolkata] PHP Notice:  Undefined variable: recname in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/topheader.php on line 26
+[25-May-2019 11:46:31 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'travelsrtech.manage' doesn't exist in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php:72
+Stack trace:
+#0 /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php(72): PDO->query('SELECT manage_p...')
+#1 {main}
+  thrown in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/admchangepass.php on line 72

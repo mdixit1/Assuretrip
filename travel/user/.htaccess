@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteRule ^login?$ login.php
+RewriteRule ^change-passowrd?$ change-passowrd.php
+RewriteRule ^change-passowrd/?$ change-passowrd.php
+RewriteRule ^leads?$ leads.php
+RewriteRule ^leads/?$ leads.php
+
+RewriteRule ^detail?$ detail.php
+RewriteRule ^detail/?$ detail.php
+RewriteRule ^detail/([a-zA-Z0-9_-]+)$ detail.php?pck=$1
+RewriteRule ^detail/([a-zA-Z0-9_-]+)/$ detail.php?pck=$1
+
+

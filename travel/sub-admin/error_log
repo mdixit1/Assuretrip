@@ -1,0 +1,17 @@
+[07-May-2019 12:34:52 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/topheader.php:1) in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/leads.php on line 57
+[09-May-2019 16:51:31 Asia/Kolkata] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/pdf/fpdf.php on line 10
+[09-May-2019 16:51:31 Asia/Kolkata] PHP Notice:  Undefined variable: adult in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/download_pdf.php on line 67
+[11-May-2019 12:20:59 Asia/Kolkata] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/pdf/fpdf.php on line 10
+[11-May-2019 12:20:59 Asia/Kolkata] PHP Notice:  Undefined variable: adult in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/download_pdf.php on line 67
+[12-May-2019 21:45:37 Asia/Kolkata] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/pdf/fpdf.php on line 10
+[12-May-2019 21:45:37 Asia/Kolkata] PHP Notice:  Undefined variable: adult in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/manage/download_pdf.php on line 67
+[16-May-2019 23:08:33 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'travelsrtech.manage' doesn't exist in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/sub-admin/admchangepass.php:85
+Stack trace:
+#0 /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/sub-admin/admchangepass.php(85): PDO->query('SELECT manage_p...')
+#1 {main}
+  thrown in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/sub-admin/admchangepass.php on line 85
+[16-May-2019 23:09:59 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'travelsrtech.manage' doesn't exist in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/sub-admin/admchangepass.php:85
+Stack trace:
+#0 /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/sub-admin/admchangepass.php(85): PDO->query('SELECT manage_p...')
+#1 {main}
+  thrown in /home/qzhhfgpb0m5p/public_html/shreerampg.com/travel/sub-admin/admchangepass.php on line 85

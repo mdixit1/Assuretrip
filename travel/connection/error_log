@@ -1,0 +1,30 @@
+[08-Aug-2016 07:22:52 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'countywi_wide'@'localhost' to database 'countywi_county'' in /home/countywidevacati/public_html/connection/index.php:4
+Stack trace:
+#0 /home/countywidevacati/public_html/connection/index.php(4): PDO->__construct('mysql:host=loca...', 'countywi_wide', 'Joon1Group')
+#1 {main}
+  thrown in /home/countywidevacati/public_html/connection/index.php on line 4
+[08-Aug-2016 07:23:53 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'countywi_wide'@'localhost' to database 'countywi_county'' in /home/countywidevacati/public_html/connection/index.php:4
+Stack trace:
+#0 /home/countywidevacati/public_html/connection/index.php(4): PDO->__construct('mysql:host=loca...', 'countywi_wide', 'Joon1Group')
+#1 {main}
+  thrown in /home/countywidevacati/public_html/connection/index.php on line 4
+[08-Aug-2016 07:23:58 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'countywi_wide'@'localhost' to database 'countywi_county'' in /home/countywidevacati/public_html/connection/index.php:4
+Stack trace:
+#0 /home/countywidevacati/public_html/connection/index.php(4): PDO->__construct('mysql:host=loca...', 'countywi_wide', 'Joon1Group')
+#1 {main}
+  thrown in /home/countywidevacati/public_html/connection/index.php on line 4
+[08-Aug-2016 07:24:57 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'countywi_wide'@'localhost' to database 'countywi_county'' in /home/countywidevacati/public_html/connection/index.php:4
+Stack trace:
+#0 /home/countywidevacati/public_html/connection/index.php(4): PDO->__construct('mysql:host=loca...', 'countywi_wide', 'Joon1Group')
+#1 {main}
+  thrown in /home/countywidevacati/public_html/connection/index.php on line 4
+[08-Aug-2016 07:25:27 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'countywi_wide'@'localhost' to database 'countywi_county'' in /home/countywidevacati/public_html/connection/index.php:4
+Stack trace:
+#0 /home/countywidevacati/public_html/connection/index.php(4): PDO->__construct('mysql:host=loca...', 'countywi_wide', 'Joon1Group')
+#1 {main}
+  thrown in /home/countywidevacati/public_html/connection/index.php on line 4
+[08-Aug-2016 07:25:31 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'countywi_wide'@'localhost' to database 'countywi_county'' in /home/countywidevacati/public_html/connection/index.php:4
+Stack trace:
+#0 /home/countywidevacati/public_html/connection/index.php(4): PDO->__construct('mysql:host=loca...', 'countywi_wide', 'Joon1Group')
+#1 {main}
+  thrown in /home/countywidevacati/public_html/connection/index.php on line 4

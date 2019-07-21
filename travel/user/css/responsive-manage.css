@@ -1,0 +1,29 @@
+@media (max-width:990px) {
+.slideadd { width:200px; position:fixed; z-index: 50; left:-100%; box-shadow:0 0 5px 0 #666;}
+.headersection , .slidebody { width:100%; margin:0;}
+.goleft { left:0; margin-left:0;}
+.navgoin { display:inline-block;}
+.tabledv , .slidebosypart { overflow:auto;}
+.tabledv table , .slidebosypart table { width:600px;}
+.proimage {width: 85px;}
+.proimage span { opacity:1;}
+.show p { margin:0;}
+.further-box .btn-blue { margin-bottom:5px;}
+.subcate .btn-yellow { margin-bottom:5px;}
+.arrow-right { margin: 0px 10px 5px 10px;}
+.coupen_dv { width:50%;}
+.coupen_form input { margin-bottom:20px;}
+.coupen_form input[type="submit"] { margin:0;}
+	}
+	
+@media (max-width:479px) {
+.log-pop-inner { width:95%; margin: 30px auto;}
+.log-pop-inner input[type="file"] {width: 100%; margin-bottom:10px;}
+.upload_div .btn-blue {float: left;}
+#result { margin-bottom:10px;}
+.forgote-popup-change { overflow:auto;}
+.upload_div select { width:100%; height: 50px; margin-bottom: 10px;}
+.btn-blue , .btn-yellow , .btn-red , .btn-green , .addproduct input[type="submit"] {font-size: 13px;}
+.subcate-box span {line-height: 38px; }
+.coupen_dv { width:100%;}
+		}

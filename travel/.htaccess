@@ -1,0 +1,135 @@
+RewriteEngine On
+RewriteRule ^login?$ login.php
+RewriteRule ^travel-agents?$ travel-agents.php
+RewriteRule ^recovery-password?$ recovery-password.php
+RewriteRule ^logout?$ logout.php
+RewriteRule ^cart?$ cart.php
+RewriteRule ^choose-address?$ choose-address.php
+RewriteRule ^payment?$ payment.php
+RewriteRule ^business-details?$ business-details.php
+RewriteRule ^bank-details?$ bank-details.php
+RewriteRule ^vender-list?$ vender-list.php
+RewriteRule ^user-register?$ user-register.php
+RewriteRule ^contact?$ contact.php
+RewriteRule ^contact/?$ contact.php
+
+RewriteRule ^forget-password?$ forget-password.php
+RewriteRule ^forget-password/?$ forget-password.php
+
+
+
+RewriteRule ^search?$ search.php
+RewriteRule ^search/?$ search.php
+RewriteRule ^search&state$ search.php?state
+RewriteRule ^search&state/$ search.php?state
+RewriteRule ^search&durtion$ search.php?durtion
+RewriteRule ^search&durtion/$ search.php?durtion
+RewriteRule ^search&mnth$ search.php?mnth
+RewriteRule ^search&mnth/$ search.php?mnth
+
+RewriteRule ^country?$ country.php
+RewriteRule ^country/?$ country.php
+RewriteRule ^country/([a-zA-Z0-9_-]+)$ country.php?contry=$1
+RewriteRule ^country/([a-zA-Z0-9_-]+)/$ country.php?contry=$1
+
+RewriteRule ^state?$ state.php
+RewriteRule ^state/?$ state.php
+RewriteRule ^state/([a-zA-Z0-9_-]+)$ state.php?sturl=$1
+RewriteRule ^state/([a-zA-Z0-9_-]+)/$ state.php?sturl=$1
+
+
+RewriteRule ^search?$ search.php
+RewriteRule ^search/?$ search.php
+RewriteRule ^search/([a-zA-Z0-9_-]+)$ search.php?stid=$1
+RewriteRule ^search/([a-zA-Z0-9_-]+)/$ search.php?stid=$1
+RewriteRule ^search/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ search.php?stid=$1&durtion=$2
+RewriteRule ^search/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ search.php?stid=$1&durtion=$2
+RewriteRule ^search/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ search.php?stid=$1&durtion=$2&mnth=$3
+RewriteRule ^search/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ search.php?stid=$1&durtion=$2&mnth=$3
+
+
+RewriteRule ^category?$ category.php
+RewriteRule ^category/?$ category.php
+RewriteRule ^category/([a-zA-Z0-9_-]+)$ category.php?caturl=$1
+RewriteRule ^category/([a-zA-Z0-9_-]+)/$ category.php?caturl=$1
+RewriteRule ^category/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ category.php?caturl=$1&page=$2
+RewriteRule ^category/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ category.php?caturl=$1&page=$2
+
+RewriteRule ^detail?$ detail.php
+RewriteRule ^detail/?$ detail.php
+RewriteRule ^detail/([a-zA-Z0-9_-]+)$ detail.php?pck=$1
+RewriteRule ^detail/([a-zA-Z0-9_-]+)/$ detail.php?pck=$1
+
+
+RewriteRule ^travel-agents-form?$ travel-agents-form.php
+RewriteRule ^travel-agents-form/?$ travel-agents-form.php
+RewriteRule ^travel-agents-form/([a-zA-Z0-9_-]+)$ travel-agents-form.php?next=$1
+RewriteRule ^travel-agents-form/([a-zA-Z0-9_-]+)/$ travel-agents-form.php?next=$1
+
+
+
+RewriteRule ^register?$ register.php
+RewriteRule ^register/?$ register.php
+RewriteRule ^register/([a-zA-Z0-9_-]+)$ register.php?editmobile=$1
+RewriteRule ^register/([a-zA-Z0-9_-]+)/$ register.php?editmobile=$1
+
+RewriteRule ^user-register?$ user-register.php
+RewriteRule ^user-register/?$ user-register.php
+RewriteRule ^user-register/([a-zA-Z0-9_-]+)$ user-register.php?verify=$1
+RewriteRule ^user-register/([a-zA-Z0-9_-]+)/$ user-register.php?verify=$1
+RewriteRule ^user-register/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ user-register.php?verify=$1&editmobile=$2
+RewriteRule ^user-register/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ user-register.php?verify=$1&editmobile=$2
+
+RewriteRule ^vender-detail?$ vender-detail.php
+RewriteRule ^vender-detail/?$ vender-detail.php
+RewriteRule ^vender-detail/([a-zA-Z0-9_-]+)$ vender-detail.php?uniid=$1
+RewriteRule ^vender-detail/([a-zA-Z0-9_-]+)/$ vender-detail.php?uniid=$1
+RewriteRule ^vender-detail/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ vender-detail.php?uniid=$1&page=$2
+RewriteRule ^vender-detail/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ vender-detail.php?uniid=$1&page=$2
+
+RewriteRule ^verify?$ verify.php
+RewriteRule ^verify/?$ verify.php
+RewriteRule ^verify/([a-zA-Z0-9_-]+)$ verify.php?editmobile=$1
+RewriteRule ^verify/([a-zA-Z0-9_-]+)/$ verify.php?editmobile=$1
+
+RewriteRule ^user-verify?$ user-verify.php
+RewriteRule ^user-verify/?$ user-verify.php
+RewriteRule ^user-verify/([a-zA-Z0-9_-]+)$ user-verify.php?editmobile=$1
+RewriteRule ^user-verify/([a-zA-Z0-9_-]+)/$ user-verify.php?editmobile=$1
+
+RewriteRule ^collection?$ collection.php
+RewriteRule ^collection/?$ collection.php
+RewriteRule ^collection/([a-zA-Z0-9_-]+)$ collection.php?vtype=$1
+RewriteRule ^collection/([a-zA-Z0-9_-]+)/$ collection.php?vtype=$1
+RewriteRule ^collection/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ collection.php?vtype=$1&page=$2
+RewriteRule ^collection/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ collection.php?vtype=$1&page=$2
+
+
+RewriteRule ^login?$ login.php
+RewriteRule ^login/?$ login.php
+RewriteRule ^login&mcart$ login.php?mcart
+RewriteRule ^login&mcart/$ login.php?mcart
+RewriteRule ^login&morder$ login.php?morder
+RewriteRule ^login&morder/$ login.php?morder
+
+RewriteRule ^collection?$ collection.php
+RewriteRule ^collection/?$ collection.php
+RewriteRule ^collection/([a-zA-Z0-9_-]+)$ collection.php?cturl=$1
+RewriteRule ^collection/([a-zA-Z0-9_-]+)/$ collection.php?cturl=$1
+
+RewriteRule ^search?$ search.php
+RewriteRule ^search/?$ search.php
+RewriteRule ^search/([a-zA-Z0-9_-]+)$ search.php?scturl=$1
+RewriteRule ^search/([a-zA-Z0-9_-]+)/$ search.php?scturl=$1
+
+RewriteRule ^enquiry?$ enquiry.php
+RewriteRule ^enquiry/?$ enquiry.php
+RewriteRule ^enquiry/([a-zA-Z0-9_-]+)$ enquiry.php?uniq=$1
+RewriteRule ^enquiry/([a-zA-Z0-9_-]+)/$ enquiry.php?uniq=$1
+RewriteRule ^enquiry/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ enquiry.php?uniq=$1&verify=$2
+RewriteRule ^enquiry/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ enquiry.php?uniq=$1&&verify=$2
+RewriteRule ^enquiry/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ enquiry.php?uniq=$1&verify=$2&mobile=$3
+RewriteRule ^enquiry/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ enquiry.php?uniq=$1&&verify=$2&mobile=$3
+
+
+

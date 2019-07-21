@@ -1,0 +1,81 @@
+body { margin:0; padding:0; font-family: 'Roboto', sans-serif;}
+.see-width{ width:1100px; margin:auto; }
+.nav-menu-dv { width:100%; display:inline-block; box-sizing:border-box; background:#ff5a5f; padding:5px 15px;}
+ul.nav-menu { margin:0; padding:0; box-sizing:border-box; display:inline-block;}
+ul.nav-menu li { list-style-type:none; float:left; margin:0; padding:2px 5px;}
+ul.nav-menu li a {text-decoration:none; padding:5px; color:#FFF; font-size:15px; letter-spacing:1px;}
+ul.nav-menu li a:hover { color:#000;}
+.adim-name { float:right; margin:0; padding:0; color:#000; line-height:28px; letter-spacing:1px;	}
+
+.location-btn-dv { width:100%; display:inline-block; box-sizing:border-box; padding:20px 15px;}
+.location-btn-dv a { background:#ff5a5f; padding:10px 20px; float:left; margin-right:10px; color:#FFF; font-size:14px; text-decoration:none;}
+
+
+.clear { clear:both;}
+.country { width:100%; display:inline-block; box-sizing:border-box; padding:50px 15px;}
+.country a { text-decoration:none; color:#FFF; background:#000; padding:8px 15px; display:inline-block; margin:0 0 20px 0; font-size:14px;}
+
+.dv-form { width:40%; float:left; box-sizing:border-box; margin:0; border: 1px solid #CCC; padding:25px; }
+.dv-form span { font-size:16px; font-weight:600;}
+.dv-form h4 { margin:0 0 10px 0; font-weight:400;}
+.dv-form input , .dv-form select, .dv-form textarea { width:100%; border:1px solid #CCC; background:#FFF; height:35px; padding:7px; margin-bottom:15px;}
+.dv-form input[type="file"] { height:auto;}
+.dv-form textarea { height:100px;}
+.dv-form input[type="submit"] { width:150px; line-height:30px; background:#ff5a5f; color:#FFF; border:none; cursor:pointer; padding:0; margin:0;}
+.dv-form input[type="submit"]:hover {background:#E7383D;}
+.dv-form.resot input , .dv-form.resot select, .dv-form.resot textarea { margin-bottom:8px;}
+.dv-form.resot { padding:20px;}
+
+.add-imag-dv {float:right;  margin:20px 0 0 0; padding:0;}
+.add-imag-dv-in_out { padding:0 2px;}
+.add-imag-dv-in { background:#FFF; padding:5px; display:inline-block;}
+.add-imag-dv-in img { margin-bottom:10px;}
+.add-imag-dv-in p { font-size:14px; text-align:center; font-weight:500;}
+.add-imag-dv-in a { width:100%; padding:4px 10px; margin:0;}
+	
+.add-imag-dv-in span { width:100%; display:inline-block;}
+.add-imag-dv-in span a { color:#425144; margin:10px 0; padding:0; background:none;}
+.add-imag-dv-in span:hover { color:#ff5a5f; cursor:pointer;}
+
+
+
+/*-----------------------------------add resort page----------------------------*/
+.add-resort-full { display:inline-block; width:100%; padding:0 15px; float:left; box-sizing:border-box;}
+
+.resort-form-dv { width:40%; border:1px solid #CCC; display:inline-block; background:rgba(0,0,0,0.1); box-sizing:border-box; padding:20px; margin-top:40px;}
+.resort-form-dv span { font-size:14px; font-weight:600; margin:0; padding:0;}
+.resort-form-dv input { width:100%; border:1px solid #CCC; padding:10px 10px; box-sizing:border-box;}
+.resort-form-dv textarea {width:100%; border:1px solid #CCC; padding:10px 10px; box-sizing:border-box; height:150px;}
+.resort-form-dv input[type="submit"] { width:150px; background:#ff5a5f; border:none; cursor:pointer;}
+.resort-form-dv select { width:100%; border:1px solid #CCC; padding:5px 10px; box-sizing:border-box;}
+.resort-form-dv select option { padding:5px;}
+
+
+.resort-detail { width:60%; float:right; box-sizing:border-box; padding:20px 20px 20px 30px; }
+.resort-detail h2 { font-size:20px; color:#444; margin:0 0 15px 0; padding:0; }
+.resort-detail p { font-size:14px; line-height:24px; color:#444; }
+.resort-detail p a { font-size:16px; padding:5px 15px; text-decoration:none; margin:0 5px; background:#000; color:#fff; } 
+.resort-detail img { width:30%; height:150px; }
+
+/*-----------------------------------change password page----------------------------*/
+
+.change-psw {}
+.change-psw-in { margin:20px auto 50px auto; box-sizing:border-box; background:rgba(0,0,0,.1); padding:30px;}
+.change-psw-in p { margin:0; padding:0; font-size:14px;}
+.change-psw-in span { font-size:14px; margin:0 0 10px 0; padding:0; display:inline-block;}
+.change-psw-in input , .change-psw-in select, .change-psw-in textarea { width:100%; padding:0 10px; height:32px; font-size:13px;  margin-bottom:15px;}
+.change-psw-in input[type="submit"] {background:#ff5a5f; border:none; margin:0; color:#FFF; cursor:pointer; font-size:14px;}
+.change-psw-in input[type="submit"]:hover { background:#4284ee;}
+.title_with_button h3 { display:inline-block; line-height:33px; font-size:16px; letter-spacing:0.3px; font-weight:400; margin-right:7px;}
+.passtitle { text-align:center; font-size:20px; font-weight:400; margin-top:40px;}
+
+
+
+.resort-part{ float:left; margin-top: -725px; }
+.headinshow{ float:right; margin-top:-50px; }
+
+.actbox{ height: 40px; float: left; background: rgb(233, 233, 233) none repeat scroll 0% 0%; width: 150px; margin: 5px; line-height: 40px; padding: 2px 0 0 7px;  }
+
+.activity_tabl table img { height:80px;}
+.activity_tabl table a , .slider_img a { padding: 2px 10px; font-size: 13px; border-radius: 3px;}
+.slider_img img { height:90px;}
